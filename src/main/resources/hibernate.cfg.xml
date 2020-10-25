@@ -20,7 +20,7 @@
     <property name="dialect">org.hibernate.dialect.H2Dialect</property>
 
     <!-- Drop and re-create the database schema on startup -->
-    <property name="hbm2ddl.auto">update</property>
+    <property name="hibernate.hbm2ddl.auto">update</property>
 
     <mapping class="Message"/>
 
