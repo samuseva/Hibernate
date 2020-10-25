@@ -5,8 +5,11 @@ import javax.persistence.Id;
 public class Message {
 
     @Id
-    private Long id=1L;
+    @GeneratedValue
+    private int id;
+    
     private String text;
+    
     public String getText(){
         return this.text;
     }
